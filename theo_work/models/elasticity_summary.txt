@@ -1,0 +1,60 @@
+Price Elasticity (Two-Way Fixed Effects)
+============================================================
+
+            model                    dep  elasticity  std_error      t_stat  p_value   n_obs  r2_within     stratum_var stratum_value
+      Pooled_Flow            NewBookings   -1.534494   0.009448 -162.418712      0.0 1048575   0.041464             NaN           NaN
+Pooled_Cumulative HistoricalBookedNights   -3.301385   0.024477 -134.875955      0.0 1048575   0.094156             NaN           NaN
+    LeadTime=0-4w            NewBookings   -1.498696   0.098691  -15.185703      0.0   98920   0.003553  LeadTimeBucket          0-4w
+   LeadTime=5-12w            NewBookings   -1.318483   0.049086  -26.860759      0.0  158272   0.005111  LeadTimeBucket         5-12w
+  LeadTime=13-26w            NewBookings   -1.906322   0.032543  -58.578006      0.0  276976   0.014670  LeadTimeBucket        13-26w
+  LeadTime=27-52w            NewBookings   -1.234074   0.023894  -51.646926      0.0  514407   0.007457  LeadTimeBucket        27-52w
+  Season=Ampharos            NewBookings   -1.353336   0.052937  -25.565026      0.0   22048   0.042728 SeasonalCluster      Ampharos
+  Season=Cetoddle            NewBookings   -2.490770   0.075622  -32.937048      0.0   22048   0.063768 SeasonalCluster      Cetoddle
+Season=Chandelure            NewBookings   -1.170191   0.052969  -22.092108      0.0   22048   0.030135 SeasonalCluster    Chandelure
+   Season=Cherrim            NewBookings   -1.454410   0.059432  -24.471762      0.0   22048   0.037221 SeasonalCluster       Cherrim
+ Season=Clawitzer            NewBookings   -1.338889   0.051151  -26.175090      0.0   22048   0.036939 SeasonalCluster     Clawitzer
+  Season=Clefairy            NewBookings   -1.571342   0.062940  -24.965590      0.0   22048   0.039276 SeasonalCluster      Clefairy
+  Season=Cobalion            NewBookings   -0.970158   0.047147  -20.577390      0.0   22048   0.028763 SeasonalCluster      Cobalion
+   Season=Cradily            NewBookings   -1.725549   0.055808  -30.919420      0.0   22048   0.054245 SeasonalCluster       Cradily
+  Season=Croagunk            NewBookings   -2.186890   0.080243  -27.253420      0.0   22048   0.051304 SeasonalCluster      Croagunk
+ Season=Cryogonal            NewBookings   -2.133020   0.079588  -26.800936      0.0   22048   0.046040 SeasonalCluster     Cryogonal
+     Season=Doduo            NewBookings   -1.634040   0.061127  -26.731855      0.0   22048   0.042895 SeasonalCluster         Doduo
+Season=Eelektross            NewBookings   -1.477631   0.059003  -25.043336      0.0   22048   0.038262 SeasonalCluster    Eelektross
+    Season=Eiscue            NewBookings   -1.438954   0.058188  -24.729533      0.0   22048   0.039007 SeasonalCluster        Eiscue
+ Season=Electrode            NewBookings   -1.350130   0.058471  -23.090688      0.0   22048   0.042733 SeasonalCluster     Electrode
+   Season=Falinks            NewBookings   -1.392152   0.057177  -24.347926      0.0   22048   0.034921 SeasonalCluster       Falinks
+    Season=Gengar            NewBookings   -1.716301   0.070777  -24.249272      0.0   22048   0.039238 SeasonalCluster        Gengar
+   Season=Gliscor            NewBookings   -1.029206   0.046121  -22.315204      0.0   22048   0.032518 SeasonalCluster       Gliscor
+Season=Gossifleur            NewBookings   -1.650888   0.059728  -27.639918      0.0   22048   0.046027 SeasonalCluster    Gossifleur
+Season=Gothitelle            NewBookings   -1.126482   0.056405  -19.971206      0.0   22048   0.037161 SeasonalCluster    Gothitelle
+   Season=Haxorus            NewBookings   -1.663555   0.060936  -27.300099      0.0   22048   0.045896 SeasonalCluster       Haxorus
+   Season=Honedge            NewBookings   -2.101877   0.103090  -20.388717      0.0   22048   0.035319 SeasonalCluster       Honedge
+   Season=Jirachi            NewBookings   -1.397618   0.074815  -18.680884      0.0   12319   0.037663 SeasonalCluster       Jirachi
+      Season=Jynx            NewBookings   -0.966937   0.051249  -18.867394      0.0   22048   0.021401 SeasonalCluster          Jynx
+   Season=Komala1            NewBookings   -1.539440   0.068146  -22.590460      0.0   22048   0.042561 SeasonalCluster       Komala1
+    Season=Lapras            NewBookings   -0.901147   0.045611  -19.757111      0.0   22048   0.031963 SeasonalCluster        Lapras
+    Season=Magmar            NewBookings   -1.489596   0.070990  -20.983124      0.0   22048   0.030202 SeasonalCluster        Magmar
+   Season=Noivern            NewBookings   -2.051904   0.066088  -31.047843      0.0   22048   0.058023 SeasonalCluster       Noivern
+  Season=Noivern1            NewBookings   -2.147043   0.061282  -35.035300      0.0   22048   0.062372 SeasonalCluster      Noivern1
+Season=Perrserker            NewBookings   -1.186163   0.060915  -19.472528      0.0   22048   0.032596 SeasonalCluster    Perrserker
+   Season=Persian            NewBookings   -1.197396   0.056745  -21.101347      0.0   22048   0.043218 SeasonalCluster       Persian
+    Season=Raboot            NewBookings   -2.077783   0.082012  -25.335160      0.0   22048   0.040144 SeasonalCluster        Raboot
+  Season=Remoraid            NewBookings   -1.717432   0.062385  -27.529532      0.0   22048   0.046401 SeasonalCluster      Remoraid
+Season=Seismitoad            NewBookings   -1.598896   0.061743  -25.896010      0.0   22048   0.045042 SeasonalCluster    Seismitoad
+   Season=Sentret            NewBookings   -1.734703   0.064571  -26.864986      0.0   22048   0.039656 SeasonalCluster       Sentret
+   Season=Servine            NewBookings   -1.621232   0.062603  -25.896985      0.0   22048   0.044260 SeasonalCluster       Servine
+ Season=Shroomish            NewBookings   -1.583359   0.063233  -25.040208      0.0   22048   0.042125 SeasonalCluster     Shroomish
+   Season=Skorupi            NewBookings   -1.692622   0.068735  -24.625209      0.0   22048   0.052417 SeasonalCluster       Skorupi
+     Season=Snivy            NewBookings   -1.443407   0.068401  -21.102057      0.0   22048   0.039486 SeasonalCluster         Snivy
+    Season=Sobble            NewBookings   -1.431150   0.058400  -24.506017      0.0   22048   0.047742 SeasonalCluster        Sobble
+   Season=Torkoal            NewBookings   -1.285814   0.049155  -26.158229      0.0   22048   0.035163 SeasonalCluster       Torkoal
+  Season=Totodile            NewBookings   -1.935789   0.068154  -28.403343      0.0   22048   0.041941 SeasonalCluster      Totodile
+ Season=Trevenant            NewBookings   -1.255323   0.051941  -24.168016      0.0   22048   0.045355 SeasonalCluster     Trevenant
+ Season=Tyranitar            NewBookings   -1.127340   0.053596  -21.033912      0.0   22048   0.030967 SeasonalCluster     Tyranitar
+  Season=Unfezant            NewBookings   -1.554071   0.052793  -29.437019      0.0   22048   0.058343 SeasonalCluster      Unfezant
+ Season=Vespiquen            NewBookings   -1.373347   0.052004  -26.408376      0.0   22048   0.048198 SeasonalCluster     Vespiquen
+ Season=Volcarona            NewBookings   -1.301284   0.050557  -25.738956      0.0   22048   0.039877 SeasonalCluster     Volcarona
+Season=Whimsicott            NewBookings   -1.848688   0.082586  -22.385052      0.0   22048   0.052051 SeasonalCluster    Whimsicott
+   Season=Xerneas            NewBookings   -1.523893   0.057334  -26.579347      0.0   22048   0.042632 SeasonalCluster       Xerneas
+
+Interpretation: a 1% price rise -> beta% change in (1+bookings).

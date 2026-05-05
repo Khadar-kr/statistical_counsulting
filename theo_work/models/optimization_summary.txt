@@ -1,0 +1,13 @@
+Revenue Optimization Summary
+============================================================
+IDs evaluated: 200
+Mean baseline revenue: 505.10
+Mean optimal revenue:  738.59
+Mean uplift:           36.60%
+Median uplift:         17.62%
+
+Most-chosen multiplier per lead bucket:
+  ladder_0_4w: 1.15  (mean 1.099)
+  ladder_5_12w: 1.15  (mean 1.016)
+  ladder_13_26w: 0.85  (mean 0.965)
+  ladder_27_52w: 0.85  (mean 0.895)
